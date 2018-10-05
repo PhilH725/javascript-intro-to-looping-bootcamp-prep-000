@@ -28,6 +28,7 @@ function doWhileLoop(array) {
     array.splice(i, 1)
     console.log(array)
   } while ((array.length > 0) && (i < 5) ) ;
+  return array
 }
 
 var array = [1, 2, 3, 4]
