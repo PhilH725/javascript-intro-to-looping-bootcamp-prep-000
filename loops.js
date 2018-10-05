@@ -20,14 +20,16 @@ function whileLoop(number) {
 var i = 0;
 function incrementVariable() {
   i = i + 1;
+  
 }
 
 function doWhileLoop(array) {
   do {
     array.splice(i, 1)
-  } while (array.length > 0 && incrementVariable() ) ;
+  } while (array.length > 0 && i < 5 ) ;
 }
+/*
 var array = [1, 2, 3, 4]
 console.log(doWhileLoop(array))
 console.log(array.splice(1,1))
-console.log(array)
+console.log(array)*/
