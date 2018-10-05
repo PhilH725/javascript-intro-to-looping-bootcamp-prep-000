@@ -29,3 +29,4 @@ function doWhileLoop(array) {
 }
 var array = [1, 2, 3, 4]
 console.log(doWhileLoop(array))
+console.log(array.splice(1,1))
