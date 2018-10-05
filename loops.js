@@ -27,11 +27,6 @@ function doWhileLoop(array) {
   do {
     array.splice(i, 1)
     console.log(array)
-  } while ((array.length > 0) && (i < 5) ) ;
+  } while ((array.length > 0) && (incrementVariable()) ) ;
   return array
 }
-
-var array = [1, 2, 3, 4]
-console.log(doWhileLoop(array))
-/*console.log(array.splice(1,1))
-console.log(array)*/
